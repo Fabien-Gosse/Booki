@@ -209,7 +209,7 @@ a {
 .hebergements {
     width: 65%;
 }
-
+/****** Hebergement Flex 
 .hebergements-cards {
     display: flex;
     flex-direction: column;
@@ -233,9 +233,19 @@ a {
     width: 30%;
 }
 
+
+Fin Hebergement Flex *********/
+
 .hebergements-cards .card {
     display: flex;
     flex-direction: column;
+}
+
+.hebergements-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin: 30px 0px 30px 0px;
 }
 
 .hebergements-cards .card-content {
