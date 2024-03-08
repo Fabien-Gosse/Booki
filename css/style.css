@@ -33,6 +33,10 @@ p {
     margin: 0px;
 }
 
+.liens-importants {
+    font-size: 18px;
+    font-weight: 700;
+}
 /***** Header + nav **********/
 header {
     display: flex;
@@ -114,8 +118,6 @@ form {
     padding: 13px 16px 13px 16px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    font-size: 18px;
-    font-weight: 700;
     cursor: pointer;
 }
 
@@ -198,7 +200,7 @@ a {
     justify-content: space-between;
 }
 
-.hebergements-and-populaires section {
+.hebergements-and-populaires section{
     background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 30px;
@@ -253,6 +255,7 @@ Fin Hebergement Flex *********/
 }
 
 .hebergements-cards img {
+    width: 100%;
     height: 114px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -270,11 +273,6 @@ Fin Hebergement Flex *********/
 
 .hebergements-cards .card-rating {
     margin-bottom: 5px;
-}
-
-.hebergements .afficher-plus {
-    font-size: 18px;
-    font-weight: 700;
 }
 
 /****** Populaires ***********/
@@ -358,6 +356,23 @@ Fin Hebergement Flex *********/
 .activites-cards h3 {
     padding-left: 19px;
 }
+
+/****** Footer *********/
+footer {
+    background-color: var(--main-bg-color);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction : column;
+    gap: 15px;
+    margin: 0px;
+}
+
 
 
 
