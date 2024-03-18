@@ -107,7 +107,7 @@ nav a:hover {
     padding: 12px 20px 12px 20px;
 }
 
-.boutonRechercher button {
+.buttonRechercher button {
     height: 49px;
     border: none;
     color:white;
@@ -118,7 +118,7 @@ nav a:hover {
     cursor: pointer;
 }
 
-.boutonRechercher i {
+.buttonRechercher i {
     color: white;
     display: none;
 }
@@ -368,7 +368,7 @@ footer ul {
 }
 
 .mobile-padding-0 {
-    padding: 0;
+    padding: 0!important;
 }
 
 header {
@@ -405,7 +405,7 @@ nav a:hover {
     margin-right: -12px;
 }
 
-.boutonRechercher .liens-importants{
+.buttonRechercher .liens-importants{
     font-size: 0px;
     border-radius: 15px;
     padding: 13px 15px 13px 15px;
@@ -413,7 +413,7 @@ nav a:hover {
     border: none;
 }
 
-.boutonRechercher i {
+.buttonRechercher i {
     font-size: 18px;
     display: block;
 }
