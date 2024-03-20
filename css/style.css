@@ -1,6 +1,7 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
 }
 
 :root {
@@ -23,6 +24,10 @@
 
 .display-flex {
     display: flex;
+}
+
+.content-center {
+    justify-content: center;
 }
 
 .space-between {
@@ -64,7 +69,6 @@
 .main-container {
     max-width: 1440px;
     padding: 0 50px;
-    box-sizing: border-box;
 }
 
 h1 {
@@ -261,7 +265,7 @@ a {
 }
 
 .activites-cards a {
-    width: 25%;
+    flex: 1;
 }
 
 .activites-cards img {
@@ -272,7 +276,6 @@ a {
 }
 
 .activites-cards .card {
-    height: 439px;
     padding: 0px;
 }
 
@@ -290,6 +293,7 @@ footer {
 }
 
 footer ul {
+    margin-top: 0;
     list-style-type: none;
     gap: 15px;
     padding: 0px;
