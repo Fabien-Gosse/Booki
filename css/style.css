@@ -81,11 +81,11 @@ nav ul {
     gap: 68px;
 }
 
-nav a {
+nav li {
     padding: 16px 0px 0px 0px;
 }
 
-nav a:hover {
+nav li:hover {
     padding: 14px 0px 0px 0px;
     border-top: 2px solid #0065FC;
     color: #0065FC
@@ -382,15 +382,19 @@ nav ul{
     text-align: center;
 }
 
-nav a {
-    padding: 0px 0px 16px 0px;
+nav li {
     border-bottom: 2px solid #F2F2F2;
 }
 
-nav a:hover {
+nav li:hover {
+    padding: 0;
     border-top: none;
-    padding: 0px;
     border-bottom: 2px solid #0065FC;
+}
+
+nav a {
+    padding: 0px 0px 16px 0px;
+    display: block;
 }
 
 /***** rechercher filtres ********/
