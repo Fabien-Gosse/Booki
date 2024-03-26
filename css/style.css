@@ -371,23 +371,13 @@ footer ul {
         }
 
         .hebergements-cards {
-            display: grid;
-            grid-template-columns: repeat(2, minmax(0, 1fr));
             margin: 15px 0px;
         }
 
         /***** activité et footer *********/
-
         footer {
             gap: 50px;
             padding: 30px;
-        }
-        /* Very small devices (small phones, less than 500px) */
-        @media (max-width: 500.00px) {
-            .hebergements-cards {
-                display: flex;
-                flex-direction: column;
-            }
         }
     }
 }
